@@ -4,11 +4,13 @@ $(document).ready(function() {
     $(".name").text(name);
 
 
-    var country = $("#country");
+    var countryVar = $("#country").val();
+    $('.countryOutput').text(countryVar);
 
     var date1 = $("#date1").val();
+    $(".date1").text(date1);
+
     var color1 =$("#color").val();
-    // var results = (name, country, date1, color1);
 
     event.preventDefault();
 
